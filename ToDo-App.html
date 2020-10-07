@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Todo List</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<body>
+
+	<h1>My Todo List</h1>
+	<p>Welcome back Dialah</p>
+	<div>
+		<form>
+			<label>Type in your task below</label><br>
+			<input type="text" id="todo-input" value="">
+			<button type="submit" id="todo-submit" onclick="appendTask()">Add Task</button>
+		</form>
+	</div>
+	<div id="todo-ul">
+		<p>Your Tasks</p>
+		<ul id="todo-list">
+		</ul>
+	</div>
+<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
