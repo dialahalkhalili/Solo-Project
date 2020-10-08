@@ -70,7 +70,7 @@ list.onclick = function doneDel(){
 // 	var tasks= tasksArray
 // 	for (var i = 0; i < tasks.length; i++) {
 // 		tasks[i].toUpperCase();
-// 		if(tasks[i] > -1)
+// 		if(tasks[i] !== -1)
 // 			tasks[i].style.display = "";
 // 		else
 // 			tasks[i].style.display = "none";
