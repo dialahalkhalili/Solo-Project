@@ -1,25 +1,98 @@
 body {
-	font-style: Century Gothic;
-	margin: auto;
-	border: solid white;
-	text-align: center;
-	max-width: 500px;
-	margin : auto ;
-	background-color: #fbd949;
-	color: #1a1718;
-}
-
-.todo-ul {
+	font-family: Century Gothic;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	list-style: none;list-style: none;
+	text-align: center;
+  	padding: 10px;
 }
 
-.todo-list{
-	list-style: none;
+.innerBody {
+	background-color: #fbd949 ;
+  	border: 50px solid #fbd949 ;
+  	border-radius: 25px;
+  	color: #222222;
+}
+
+#welcome{
+	font-size: 28px
+}
+
+#todo-input{
+	height: 30px;
+    width: 600px;
+	text-align: center;
+	background-color: white ;
+  	border: 10px solid white ;
+  	border-radius: 10px;
+  	font-size: 18px;
+  	margin: 2%
+}
+
+#todo-submit {
+  	background-color: white;
+  	border: 2px solid #fbd949;
+  	border-radius: 10px;
+  	color: #222222;
+  	padding: 10px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 16px;
+}
+
+#searchBar{
+	height: 30px;
+    width: 600px;
+	text-align: center;
+	background-color: white ;
+  	border: 10px solid white ;
+  	border-radius: 10px;
+  	font-size: 18px;
+}
+
+#todo-list{
+	list-style-type: none;
+  	background-color: white;
+  	border: 2px solid #fbd949;
+  	border-radius: 10px;
+  	color: #222222;
+  	padding: 10px;
+  	text-align: center;
+  	font-size: 16px;
+  	margin: 5px;
+
+}
+
+.taskDone{
+	height: 20px;
+    width: 60px;
+	background-color: #fbd949;
+  	border: none;
+  	border-radius: 5px;
+  	color: white;
+  	padding: 1rem;  	
+	text-align: center;
+  	display: inline-block;
+  	font-size: 12px;
+  	align-items: center;
+}
+
+.taskDelete{
+	height: 20px;
+    width: 60px;
+	background-color: #fbd949;
+  	border: none;
+  	border-radius: 5px;
+  	color: white;
+  	padding: 1rem;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 12px;
+  	align-items: center;
 }
 
 .completed{
-	text-decoration: line-through; 
+	text-decoration: line-through;
+	opacity: 0.7;
 }
+
